@@ -5,35 +5,20 @@ const farms: FarmConfig[] = [
   {
     pid: 0,
     risk: 5,
-    lpSymbol: 'DIO-BUSD LP',
+    lpSymbol: 'CAKE-BNB LP',
     lpAddresses: {
       97: '',
-      56: '0x4af70e7f7374c9ae742a0754c59c6ed9da5eee35',
+      56: '0x0eD7e52944161450477ee417DE9Cd3a859b14fD0',
     },
-    tokenSymbol: 'DIO',
+    tokenSymbol: 'CAKE',
     tokenAddresses: {
       97: '',
-      56: '0xb80a8edd3730d82a941a1cdd7547e843fd5ca65c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
-  {
-    pid: 1,
-    risk: 5,
-    lpSymbol: 'VEGAN-BNB LP',
-    lpAddresses: {
-      97: '',
-      56: '0x573063c62b6fa86e60fa275ba0d24fdddf820353',
-    },
-    tokenSymbol: 'VEGAN',
-    tokenAddresses: {
-      97: '',
-      56: '0x901e58695306b5c33c5169334e921a4cf4841571',
+      56: '0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82',
     },
     quoteTokenSymbol: QuoteToken.BNB,
     quoteTokenAdresses: contracts.wbnb,
   },
+
 
 
   {
@@ -198,23 +183,7 @@ const farms: FarmConfig[] = [
   //   quoteTokenSymbol: QuoteToken.BNB,
   //   quoteTokenAdresses: contracts.wbnb,
   // },
-  {
-    pid: 3,
-    risk: 5,
-    isTokenOnly: true,
-    lpSymbol: 'DIO',
-    lpAddresses: {
-      97: '',
-      56: '0x4AF70E7F7374C9AE742a0754c59c6Ed9dA5EEE35', // DIO-BUSD LP
-    },
-    tokenSymbol: 'DIO',
-    tokenAddresses: {
-      97: '',
-      56: '0xb80a8edd3730d82a941a1cdd7547e843fd5ca65c',
-    },
-    quoteTokenSymbol: QuoteToken.BUSD,
-    quoteTokenAdresses: contracts.busd,
-  },
+
   {
     pid: 5,
     risk: 5,
